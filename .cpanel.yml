@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -f /home/kkf1msagmtzm/public_html/lineledger/index.html /home/kkf1msagmtzm/public_html/index.html
+    - /bin/mkdir -p /home/kkf1msagmtzm/public_html/assets
+    - /bin/cp -f /home/kkf1msagmtzm/public_html/lineledger/assets/index-DR_PL9zC.js /home/kkf1msagmtzm/public_html/assets/index-DR_PL9zC.js
+    - /bin/cp -f /home/kkf1msagmtzm/public_html/lineledger/assets/index-D8pfCbz-.css /home/kkf1msagmtzm/public_html/assets/index-D8pfCbz-.css
+    - /bin/cp -f /home/kkf1msagmtzm/public_html/lineledger/.htaccess /home/kkf1msagmtzm/public_html/.htaccess
